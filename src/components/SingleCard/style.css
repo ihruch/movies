@@ -1,0 +1,28 @@
+.single-card-main{
+    display: flex;
+    flex-flow: row nowrap;
+   
+    width: 483px;
+    height: 278px;
+    margin: 15px 0;
+}  
+.single-card-info-block{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+} 
+.single-card-img{
+    flex: 0 0 175px;
+    height: 278px;
+    border: 1px solid #000;
+
+}
+.single-card-content{
+    padding: 15px !important;
+}
+.single-card-action{
+   margin: 0 !important;
+   margin-bottom: auto;
+
+   border-top: 1px solid #ddd;
+}

@@ -1,0 +1,37 @@
+.paiging-btn{
+    display: flex;
+    text-align: center;
+}
+.paiging-btn-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.paiging-btn-group button {
+    background: transparent;    
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.paiging-btn-group i{
+    font-size: 50px !important;
+}
+.list-container  {
+    
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+.block-sorting{
+    height: 50px;
+}
+
+.movies-wrapper{
+   
+}
+

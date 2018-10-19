@@ -1,0 +1,11 @@
+
+.movies-sorting-block{
+    display: flex;
+   justify-content: flex-end;
+
+    padding: 5px 0px;
+}
+.movies-sorting-block .movies-select{
+    margin: 10px 0;
+    width: 200px;
+}
