@@ -2,7 +2,7 @@
   "name": "movie-db2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ihruch.github.io/moviedb-react",
+  "homepage": "https://ihruch.github.io/movies-react/",
   "dependencies": {
     "@material-ui/core": "^3.1.2",
     "@material-ui/icons": "^3.0.1",
@@ -11,6 +11,7 @@
     "history": "^4.7.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-preload-image": "^1.0.4",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",

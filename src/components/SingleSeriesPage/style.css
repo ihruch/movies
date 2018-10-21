@@ -22,6 +22,8 @@
 .smp-card-media{
     flex: 0 0 300px;
     height: 450px;
+    position: relative;
+   
 }
 
 .smp-card-content{

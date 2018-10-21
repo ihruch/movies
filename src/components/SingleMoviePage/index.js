@@ -15,6 +15,7 @@ import IconButton from '@material-ui/core/IconButton';
 import styled from 'styled-components';
 import './style.css';
 import { fetchSingleMovie } from './../../redux/actions/singleMovieAction.js';
+import PreloadImage from 'react-preload-image';
 
 class SingleCardPageMovie extends Component {
     constructor() {
@@ -78,11 +79,24 @@ class SingleCardPageMovie extends Component {
                             <div className='content-container' >
                                 <Card className='smp-card'>
                                     <div className='smp-card-wrapper'>
-                                        <CardMedia
+                                     
+                                        <div className='smp-card-media' >
+                                            <PreloadImage
                                             className='smp-card-media'
-                                            image={imgFace + this.props.singleMovie.poster_path}
-                                            title="Live from space album cover"
-                                        />
+                                                style={{
+                                                    position: 'absolute',
+                                                    top: 0,
+                                                    right: 0,
+                                                    bottom: 0,
+                                                    left: 0,
+                                                    backgroundRepeat: 'no-repeat',
+                                                    backgroundPosition: '50% 50%',
+                                                    backgroundImage: "url(https://www.themoviedb.org/assets/1/v4/logos/primary-green-d70eebe18a5eb5b166d5c1ef0796715b8d1a2cbc698f96d311d62f894ae87085.svg )"
+                                                    
+                                                }}
+                                                src={imgFace + this.props.singleMovie.poster_path}
+                                                />
+                                        </div>  
                                         
                                         <CardContent className='smp-card-content'>
                                             <div className='smp-card-title'>
