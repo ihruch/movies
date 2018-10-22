@@ -25,7 +25,6 @@ class SingleCardPageSeries extends Component {
             id: null,
             loading: true
         }
-    console.log("1111111111111111111111111111")    
     }
 
     componentWillMount(){
